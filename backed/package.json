@@ -1,0 +1,15 @@
+{
+  "name": "backed",
+  "version": "1.0.0",
+  "description": "This is a chat application using soket.io and pure javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pjphukan",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "socket.io": "^4.7.2"
+  }
+}

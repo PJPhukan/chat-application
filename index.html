@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat- Application using socket.io html javascript css</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="script.js"></script>
+       <!-- //DEFER IS USED TO LOAD AFTER THE DOM LOADED -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Chat-Applications</h1>
+    </nav>
+    <section>
+      <div class="container">
+        <!-- <div class="massage left">PJ:Hey how are you</div> -->
+        <!-- <div class="massage mid"></div> -->
+
+        <!-- <div class="massage right">You:I am fine. how are you .Are wo</div> -->
+      </div>
+      <div class="input">
+        <form action="#" id="sendcontainer">
+          <input
+            type="text"
+            id="sendText"
+            name="sendText"
+            placeholder="Enter Massage"
+          />
+          <button type="submit" class="btn"><i class="bx bxs-send"></i></button>
+        </form>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>

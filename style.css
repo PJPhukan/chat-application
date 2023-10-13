@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, rgb(34, 34, 247), rgb(182, 108, 243), rgb(240, 5, 114));
+    background-size: fixed;
+    overflow: hidden;
+    background-attachment: fixed;
+    transition: .3s;
+}
+
+
+
+
+nav {
+    display: block;
+}
+
+nav h1 {
+    text-align: center;
+    color: rgb(32, 30, 30);
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2rem;
+}
+
+section {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    min-height: 80vh;
+    /* border: 1.5px solid black; */
+    box-shadow: 0px 0px 3px black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.container {
+    position: relative;
+    height: 69vh;
+    width: 84%;
+    margin: auto;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.massage {
+    border: 1px solid black;
+
+    min-height: 3rem;
+    border-radius: .5rem;
+    padding: .7rem;
+    width: 14rem;
+    margin-bottom: .5rem;
+    background: rgb(155, 169, 212);
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.mid{
+    display: block;
+    margin: auto;
+    clear: both;
+    min-height: 2rem;
+    padding: .4rem;
+    background: #bad3ba;
+    text-align: center;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.input {
+    position: absolute;
+    bottom: .3rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* overflow-wrap: break-word; */
+}
+
+#sendcontainer {
+    position: absolute;
+    bottom: .3rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.input #sendText {
+    min-width: 80%;
+    height: 3rem;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    padding: .5rem .8rem;
+    box-shadow: 0px 0px 3px black;
+    overflow-y: scroll;
+}
+
+#sendText:focus {
+    outline: none;
+
+}
+
+.input .btn {
+
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: .6rem;
+    /* transition: .3s; */
+}
+
+.input .btn i {
+    font-size: 2.5rem;
+    color: rgb(9, 9, 56);
+
+}
